@@ -1,0 +1,21 @@
+#!/system/bin/sh
+
+SKUID_VALUE=$(getprop ro.boot.skuid)
+Product_VALUE=$(getprop ro.product.name)
+Version_VALUE=$(getprop ro.build.display.id | sed 's/00WW_//g')
+ProductTAcode_VALUE=$(getprop ro.product.model.display)
+ProductModel_VALUE=$(getprop ro.product.model)
+MCC_MNC_VALUE=$(getprop gsm.sim.operator.numeric)
+IMEI_VALUE=$(getprop persist.radio.imei)
+ROOTED_VALUE=$(getprop sys.dev.r_status)
+print "{"
+print "\"SKUID\":"" \""$SKUID_VALUE"\","
+print "\"Product\":"" \""$Product_VALUE"\","
+print "\"Version\":"" \""$Version_VALUE"\","
+print "\"ProductTAcode\":"" \""$ProductTAcode_VALUE"\","
+print "\"ProductModel\":"" \""$ProductModel_VALUE"\","
+print "\"MNC\":"" \""${MCC_MNC_VALUE:0:3}"\","
+print "\"MCC\":"" \""${MCC_MNC_VALUE:3:3}"\","
+print "\"IMEI\":"" \""$IMEI_VALUE"\","
+print "\"SU\":"" \""$ROOTED_VALUE"\""
+print "}"

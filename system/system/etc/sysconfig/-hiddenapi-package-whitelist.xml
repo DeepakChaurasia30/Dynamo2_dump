@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This whitelist is created by AutoPack Tool. -->
+<config>
+    <hidden-api-whitelisted-app package="com.hmdglobal.support" />
+    <hidden-api-whitelisted-app package="com.google.android.apps.wallpaper" />
+    <hidden-api-whitelisted-app package="com.evenwell.foxlauncher.partner" />
+    <hidden-api-whitelisted-app package="android.autoinstalls.config.Nokia.E2M" />
+    <hidden-api-whitelisted-app package="com.google.android.wfcactivation" />
+    <hidden-api-whitelisted-app package="com.evenwell.gmspartner" />
+    <hidden-api-whitelisted-app package="com.evenwell.factorywizard" />
+    <hidden-api-whitelisted-app package="com.hmdglobal.app.myphonehelper" />
+    <hidden-api-whitelisted-app package="com.evenwell.nps" />
+    <hidden-api-whitelisted-app package="com.evenwell.pushagent" />
+    <hidden-api-whitelisted-app package="com.evenwell.dataagent" />
+    <hidden-api-whitelisted-app package="com.evenwell.autoregistration" />
+    <hidden-api-whitelisted-app package="com.fih.infodisplay" />
+    <hidden-api-whitelisted-app package="com.android.cellbroadcastreceiver" />
+    <hidden-api-whitelisted-app package="com.hmdglobal.camera2lite" />
+    <hidden-api-whitelisted-app package="com.evenwell.fmradio" />
+    <hidden-api-whitelisted-app package="com.android.launcher3" />
+    <hidden-api-whitelisted-app package="com.evenwell.legalterm" />
+    <hidden-api-whitelisted-app package="com.evenwell.batteryprotect" />
+    <hidden-api-whitelisted-app package="com.evenwell.DeviceMonitorControl" />
+    <hidden-api-whitelisted-app package="com.evenwell.stbmonitor" />
+    <hidden-api-whitelisted-app package="com.evenwell.AprUploadService" />
+    <hidden-api-whitelisted-app package="com.evenwell.custmanager" />
+    <hidden-api-whitelisted-app package="com.evenwell.DbgCfgTool" />
+    <hidden-api-whitelisted-app package="com.evenwell.CPClient" />
+    <hidden-api-whitelisted-app package="com.evenwell.pushagent" />
+    <hidden-api-whitelisted-app package="com.evenwell.permissiondetection" />
+    <hidden-api-whitelisted-app package="com.evenwell.fqc" />
+    <hidden-api-whitelisted-app package="com.evenwell.SetupWizard" />
+</config>
