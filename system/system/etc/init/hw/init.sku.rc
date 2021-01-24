@@ -1,0 +1,23 @@
+on fs
+    setprop ro.usb.type 2
+    setprop ro.build.product E2M
+    setprop ro.product.board E2M
+    setprop ro.product.device E2M
+    setprop ro.build.host qwyhaypx
+    setprop ro.product.brand Nokia
+    setprop persist.rcs.supported 0
+    setprop ro.product.locale en-GB
+    setprop ro.product.model.num 00WW
+    setprop ro.product.model "Nokia 2.1"
+    setprop ro.product.name Dynamo2_00WW
+    setprop ro.config.dbgcfgtool_config 2
+    setprop ro.product.first_api_level 27
+    setprop ro.product.nickname "Nokia 2.1"
+    setprop persist.radio.db_reinit_if_null 1
+    setprop persist.vendor.radio.adb_log_on 0
+    setprop ro.product.manufacturer "HMD Global"
+    setprop ro.com.google.clientidbase android-hmd-rev2
+on fs
+	setprop ro.build.fingerprint Nokia/Dynamo2_00WW/E2M:10/QKQ1.190828.002/00WW_4_11F:user/release-keys
+	setprop ro.system.build.fingerprint Nokia/Dynamo2_00WW/E2M:10/QKQ1.190828.002/00WW_4_11F:user/release-keys
+	setprop ro.build.description "Dynamo2_00WW-user 10 QKQ1.190828.002 00WW_4_11F release-keys"

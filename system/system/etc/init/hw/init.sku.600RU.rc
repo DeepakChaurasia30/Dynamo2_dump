@@ -1,0 +1,8 @@
+on fs
+    setprop ro.product.locale ru_RU
+    setprop ro.product.name Dynamo2_00RU
+    setprop ro.russia.zzz_ver_append_str _RU
+on fs
+	setprop ro.build.fingerprint Nokia/Dynamo2_00RU/E2M:10/QKQ1.190828.002/00WW_4_11F:user/release-keys
+	setprop ro.system.build.fingerprint Nokia/Dynamo2_00RU/E2M:10/QKQ1.190828.002/00WW_4_11F:user/release-keys
+	setprop ro.build.description "Dynamo2_00RU-user 10 QKQ1.190828.002 00WW_4_11F release-keys"
