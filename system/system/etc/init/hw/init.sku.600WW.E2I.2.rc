@@ -1,0 +1,5 @@
+on fs
+    setprop ro.product.model.display TA-1086
+on fs
+    setprop ro.build.version.base_os Nokia/Dynamo2_00WW/E2M:10/QKQ1.190828.002/00WW_4_11F:user/release-keys
+

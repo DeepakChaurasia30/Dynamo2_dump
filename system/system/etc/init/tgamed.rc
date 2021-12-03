@@ -1,0 +1,12 @@
+service tgamed /system/bin/tgamed
+    class main
+    user root
+    group root
+    socket tgamed stream 0666 root root
+    disabled
+
+on property:persist.sys.game.enable=1
+   start tgamed
+   
+on property:persist.sys.game.enable=0
+   stop tgamed

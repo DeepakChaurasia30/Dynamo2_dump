@@ -1,0 +1,5 @@
+on fs
+    setprop ro.product.vendor.name Dynamo2_00RU
+on fs
+	setprop ro.vendor.build.fingerprint Nokia/Dynamo2_00RU/E2M:10/QKQ1.190828.002/00WW_4_11I:user/release-keys
+	setprop ro.odm.build.fingerprint Nokia/Dynamo2_00RU/E2M:10/QKQ1.190828.002/00WW_4_11I:user/release-keys
